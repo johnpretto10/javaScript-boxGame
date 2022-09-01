@@ -1,0 +1,32 @@
+body{
+   background-color: rgb(241, 241, 241);
+}
+#container{
+    /* margin: auto; */
+    width:920px;
+    border: 1px solid black;
+    height: 400px;
+    background-color: rgba(248, 248, 248, 0.623);
+    
+    
+    
+}
+#divi{
+    height: 5em;
+    border: 1px solid black;
+    margin: 0.5px;
+    border-radius: 3px;
+    box-shadow: 1px 0px 1px 1px rgb(182, 182, 182);
+    
+    
+}
+#divpara{
+    
+    height: 2em;
+    width:920px;
+    margin: auto;
+    
+}
+/* #divi:hover{
+    background-color: rgb(66, 66, 66);
+} */
