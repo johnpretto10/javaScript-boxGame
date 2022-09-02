@@ -54,6 +54,27 @@ else{
 setTimeout(() => {
     location.reload();
   }, 5000);
+
+ 
+let divId = document.getElementsByClassName('col');
+let color = ["red","green","blue"];
+for(i=0;i<divId.length;i++){
+ divId[i].addEventListener('mouseover',(event)=>{
+for(let i=0;i<color.length;i++){
+ 
+ event.target.style.backgroundColor = color[i];
+}
+ });
+}
+
+
+console.log(color);
+console.log(divId);
+
+
+
+
+
 }
 
 function userInput(){
