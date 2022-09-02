@@ -51,9 +51,9 @@ else{
     para.style.display = 'block';
 
 }
-setTimeout(() => {
-    location.reload();
-  }, 5000);
+// setTimeout(() => {
+//     location.reload();
+//   }, 5000);
 
  
 let divId = document.getElementsByClassName('col');
